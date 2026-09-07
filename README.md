@@ -8,7 +8,7 @@
 >
 > **But read this first:** the HD20 is still the only revision we have put on a
 > load cell. The HDP30 has no torque, efficiency or backlash data yet. If you
-> need a number you can defend, build this one. Nothing here is going away —
+> need a number you can defend, build this one. Nothing here is going away:
 > the files, the BOM and the test report all stay up.
 >
 > Build page: [robrotics.web.app/archive/hd20](https://robrotics.web.app/archive/hd20)
@@ -24,8 +24,8 @@ unit. Tested to **3.3 N·m**.
 |---|---|
 | **Reduction** | 20:1 |
 | **Tooth profile** | Cycloidal, module 0.8 |
-| **Measured torque** | 2.1–2.6 N·m @ 0.7 A · 3.0–3.3 N·m @ 1.4 A (peak 3.5 N·m) |
-| **Efficiency** | 48–58% |
+| **Measured torque** | 2.1-2.6 N·m @ 0.7 A · 3.0-3.3 N·m @ 1.4 A (peak 3.5 N·m) |
+| **Efficiency** | 48-58% |
 | **Backlash** | measurement in progress |
 | **Motor** | Any NEMA 17 with a 5 mm shaft (tested: [OMC 17HE12-1204S](https://www.omc-stepperonline.com/e-series-nema-17-bipolar-26ncm-36-82oz-in-1-2a-42x42x30mm-4-wires-w-1m-cable-connector-17he12-1204s), 26 N·cm, 1.2 A) |
 | **Lubrication** | Super Lube synthetic PTFE grease |
@@ -88,7 +88,7 @@ Machine-readable source: [`bom.json`](bom.json).
 | 3 | 30 × 42 × 7 mm bearing | 1 | 10 | $16.39 | $1.64 |
 | 4 | Set screw | 1 | 50 | $5.69 | $0.11 |
 | 5 | 5 mm steel bearing balls | 11 | 200 | $7.20 | $0.40 |
-| 6 | Super Lube synthetic grease | 1 | — | — | — |
+| 6 | Super Lube synthetic grease | 1 | - | - | - |
 | | | | | **$46.96 buy-in** | **$3.96 each** |
 
 One tube of grease lasts many builds, so it isn't counted in the per-unit cost.
@@ -177,12 +177,12 @@ Read this before you conclude you assembled it wrong.
   knob you have.
 - **Unit-to-unit variation is real.** Two units of the same design differed by
   up to 18% at the same current. Printed gearboxes are not precision parts.
-- **Efficiency is 48–58%**, so roughly half your motor torque becomes heat.
+- **Efficiency is 48-58%**, so roughly half your motor torque becomes heat.
   Size the motor accordingly.
 - **PLA creeps under sustained load.** Holding a heavy static load for hours
   will slowly deform the circular splines.
 - **The 1.4 A figures are above the test motor's rating.** The 17HE12-1204S is
-  rated 1.2 A, so the 3.0–3.3 N·m numbers were measured over-driven. Treat them
+  rated 1.2 A, so the 3.0-3.3 N·m numbers were measured over-driven. Treat them
   as a short-burst ceiling, not a continuous rating. At 1.4 A that motor gets
   hot.
 
@@ -193,7 +193,7 @@ version, filament, and printer.
 ## Test data
 
 [`docs/torque-test-report.html`](docs/torque-test-report.html) is a standalone
-page with the full load-cell traces: 7 configurations, ~1500–3000 samples each,
+page with the full load-cell traces: 7 configurations, ~1500-3000 samples each,
 100 mm lever arm, raw counts scaled to N·m, with a no-gearbox baseline for the
 efficiency maths. Open it in a browser.
 

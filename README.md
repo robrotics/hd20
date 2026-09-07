@@ -1,5 +1,19 @@
 # HD20: a 3D-printable 20:1 harmonic drive actuator
 
+> ### Superseded by the [HDP30](https://github.com/robrotics/hdp30)
+>
+> The [HDP30](https://github.com/robrotics/hdp30) gets **30:1** out of the same
+> NEMA 17 face and the exact same bill of materials, in a thinner stack. If
+> you're starting a new build, start there.
+>
+> **But read this first:** the HD20 is still the only revision we have put on a
+> load cell. The HDP30 has no torque, efficiency or backlash data yet. If you
+> need a number you can defend, build this one. Nothing here is going away —
+> the files, the BOM and the test report all stay up.
+>
+> Build page: [robrotics.web.app/archive/hd20](https://robrotics.web.app/archive/hd20)
+
+
 A strain-wave (harmonic) gearbox that bolts onto a standard NEMA 17 stepper,
 prints on a bog-standard bed slinger, and costs about **$4 of hardware** per
 unit. Tested to **3.3 N·m**.

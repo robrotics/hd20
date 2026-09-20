@@ -144,7 +144,7 @@ bom.json           Bill of materials (source of truth)
 ```
 
 Grab the packaged bundles from the
-[Releases page](https://github.com/robrotics/hd17/releases) rather than
+[Releases page](https://github.com/robrotics/hd20/releases) rather than
 cloning, because the STEP files are large.
 
 ## Assembly
@@ -187,7 +187,7 @@ Read this before you conclude you assembled it wrong.
   hot.
 
 Found something we haven't listed? Please
-[open an issue](https://github.com/robrotics/hd17/issues) and include your
+[open an issue](https://github.com/robrotics/hd20/issues) and include your
 version, filament, and printer.
 
 ## Test data
